@@ -61,8 +61,8 @@ angular.module('ionicApp', ['ionic'])
     { text: 'Large', value: 'L' },
     { text: 'Medium', value: 'M' },
     { text: 'Small', value: 'S' }
-  ];
-  
+  ]; 
+ 
   $scope.attendee = {};
   $scope.submit = function() {
     if(!$scope.attendee.firstname) {
@@ -73,7 +73,7 @@ angular.module('ionicApp', ['ionic'])
     $scope.attendees.push($scope.attendee);
   };
   
-})
+})  
 
 .controller('AttendeesCtrl', function($scope) {
   
